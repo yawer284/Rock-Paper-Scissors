@@ -1,13 +1,8 @@
 function getComputerChoice() {
-    let randomNumber = Math.floor(Math.random() * 3) + 1;
-
-    if (randomNumber === 1) {
-        return "rock";
-    } else if (randomNumber === 2) {
-        return "paper";
-    } else {
-        return "scissors";
-    }
+    const choices = ["Rock", "Paper", "scissors"];
+    const randomChoices = Math.floor(Math.random() * choices.length);
+    const computerChoice = choices[randomChoices];
+    return computerChoice;
 }
 
 function getHumanChoice() {

@@ -6,7 +6,7 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
-    let choice = Number(prompt("Choose a random number between (1 - 3)? (1 == Rock, 2 == Paper, and 3 == Scissors)"));
+    // let choice = Number(prompt("Choose a random number between (1 - 3)? (1 == Rock, 2 == Paper, and 3 == Scissors)"));
 
     if (choice === 1) {
         return "Rock";

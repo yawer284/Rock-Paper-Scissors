@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.geist-pixel {
+    font-family: "Geist Pixel", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "ELSH" 0;
+}
+
+body {
+    font-family: "Geist Pixel", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3F4F6;
+    padding: 0;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    padding-left: 16px;
+}
+
+.light-and-dark-mode img {
+    width: 50px;
+    height: auto;
+    padding-right: 16px;
+    cursor: pointer;
+}
+
+.title h1,
+p {
+    color: #2D3748;
+    text-align: center;
+    margin-right: 90px;
+}
+
+.title h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.title p {
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 15%;
+}
+
+.options {
+    background-color: #F3F4F6;
+}
+
+.options h3 {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 16px;
+    color: #2D3748;
+}
+
+.option img {
+    max-width: 300px;
+    width: 250px;
+    height: auto;
+    cursor: pointer;
+    border: solid #2D3748 2px;
+    border-radius: 10px;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 30%;
+}

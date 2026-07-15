@@ -31,7 +31,7 @@ nav {
 }
 
 .logo img {
-    width: 150px;
+    width: 170px;
     height: auto;
     padding-left: 16px;
 }
@@ -88,8 +88,19 @@ p {
 }
 
 .score {
+    background-color: #F3F4F6; 
+    border: 1px solid #D1D5DB; 
+    border-radius: 12px;
+    margin: 15px 20%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* ظل خفيف */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 30%;
+}
+
+.you, .computer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }

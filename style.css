@@ -6,28 +6,28 @@
 
 
 .cinzel-decorative-regular {
-  font-family: "Cinzel Decorative", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .cinzel-decorative-bold {
-  font-family: "Cinzel Decorative", serif;
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .cinzel-decorative-black {
-  font-family: "Cinzel Decorative", serif;
-  font-weight: 900;
-  font-style: normal;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .custom-line {
-  border: none;             
-  height: 2px;              
-  background-color: #8B0000; 
-  margin: 20px 0;           
+    border: none;
+    height: 2px;
+    background-color: #8B0000;
+    margin: 20px 0;
 }
 
 body {
@@ -40,7 +40,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    margin: 12px;
     font-size: 24px;
 }
 
@@ -55,6 +55,16 @@ nav a {
     color: #8B0000;
 }
 
+.logo {
+    max-width: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
 
 .win5 {
     font-size: 23px;
@@ -92,7 +102,7 @@ nav a {
     max-width: 400px;
     text-align: center;
     font-size: 18px;
-    
+
 }
 
 .card img {
